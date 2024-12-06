@@ -22,23 +22,17 @@ scikit-learn==1.0.1
 To run this app `streamlit run app.py`
 
 
-### Dataset Source 
+## Dataset Source :
 
-* [Kaggle Dataset URL](https://www.kaggle.com/blastchar/telco-customer-churn)
-* [GitHub Dataset URL](https://github.com/IBM/telco-customer-churn-on-icp4d/tree/master/data)
+* [Onedrive Dataset URL](https://azubiafrica-my.sharepoint.com/:x:/r/personal/teachops_azubiafrica_org/Documents/Career%20Accelerator%20Data_Sets/LP2%20Datasets/Telco-churn-last-2000.xlsx?d=w4bfb3536a4a143c98f4f79741606114c&csf=1&web=1&e=2V3Njh)
+* [GitHub Dataset URL](https://github.com/Azubi-Africa/Career_Accelerator_LP2-Classifcation/blob/ffc6eab27c88e9b50c0bfd55d683511d7da9c590/LP2_Telco-churn-second-2000.csv)
 
 
 
 ### GitHub Project Repository 
-* [Customer-Churn-Prediction](https://github.com/ahmedshahriar/Customer-Churn-Prediction)
+* Check the **GitHub Project Repository**   [![](https://img.shields.io/badge/Customer%20Churn%20Prediction-GitHub-100000?logo=github&logoColor=white)](https://github.com/mgpacifique/Telco-Customer-Churn-Prediction-Streamlit-App-main)
 
-## View The Project
-* View the Project in Jupyter Notebook Html : [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://nbviewer.org/github/ahmedshahriar/Customer-Churn-Prediction/blob/main/Telco-Customer-Churn-Prediction.html)
+
+* View the Project in **Jupyter Notebook Html**   [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://github.com/mgpacifique/lap_phase_2_chrun_classification-project/blob/a3d4c7216d42e750f1f1fb77d0320325fdb0249e/dap_phase2_churn_classification_project.ipynb) 
 
 * Open The GitHub Project in Binder : [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
-
-  
-### View this notebook on kaggle
-
-1. [Churn Prediction I : EDA+Statistical Analysis](https://www.kaggle.com/ahmedshahriarsakib/churn-prediction-i-eda-statistical-analysis)
-2. [Churn Prediction II : Triple Boost Stacking+  Optuna](https://www.kaggle.com/ahmedshahriarsakib/churn-prediction-ii-triple-boost-stacking-optuna)
