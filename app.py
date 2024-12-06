@@ -43,9 +43,9 @@ You can also :
 
 """)
 
-df_churn = pd.read_csv("/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-cleaned.csv")
-df_train = pd.read_csv('/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Train.csv', index_col=0)
-df_test = pd.read_csv('/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Test.csv', index_col=0)
+df_churn = pd.read_csv(r"/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-cleaned.csv")
+df_train = pd.read_csv(r'/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Train.csv', index_col=0)
+df_test = pd.read_csv(r'/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Test.csv', index_col=0)
 
 st.header('Churn Data Overview')
 st.write('Data Dimension: ' + str(df_churn.shape[0]) + ' rows and ' + str(df_churn.shape[1]) + ' columns.')
