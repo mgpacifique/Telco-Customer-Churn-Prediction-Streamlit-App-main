@@ -34,5 +34,3 @@ To run this app `streamlit run app.py`
 
 
 * View the Project in **Jupyter Notebook Html**   [![Open in HTML](https://img.shields.io/badge/Html-Open%20Notebook-blue?logo=HTML5)](https://github.com/mgpacifique/lap_phase_2_chrun_classification-project/blob/a3d4c7216d42e750f1f1fb77d0320325fdb0249e/dap_phase2_churn_classification_project.ipynb) 
-
-* Open The GitHub Project in Binder : [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ahmedshahriar/Customer-Churn-Prediction/main)
