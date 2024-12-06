@@ -43,9 +43,9 @@ You can also :
 
 """)
 
-df_churn = pd.read_csv(r"C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\dataset\Telco-Customer-Churn-dataset-cleaned.csv")
-df_train = pd.read_csv(r'C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\dataset\Telco-Customer-Churn-dataset-Train.csv', index_col=0)
-df_test = pd.read_csv(r'C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\dataset\Telco-Customer-Churn-dataset-Test.csv', index_col=0)
+df_churn = pd.read_csv("/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-cleaned.csv")
+df_train = pd.read_csv('/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Train.csv', index_col=0)
+df_test = pd.read_csv('/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/dataset/Telco-Customer-Churn-dataset-Test.csv', index_col=0)
 
 st.header('Churn Data Overview')
 st.write('Data Dimension: ' + str(df_churn.shape[0]) + ' rows and ' + str(df_churn.shape[1]) + ' columns.')
@@ -77,14 +77,14 @@ classifier_name = st.sidebar.selectbox(
 def get_classifier(clf_name):
     if clf_name == 'XGBoost':
         clf = xgb.XGBClassifier()  # init model
-        clf.load_model(r"C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\models\model_xgb.json")
+        clf.load_model(r"/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/models/model_xgb.json")
     elif clf_name == 'CatBoost':
         clf = CatBoostClassifier()  # parameters not required.
-        clf.load_model(r'C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\models\model_catboost')
+        clf.load_model(r'/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/models/model_catboost')
     else:
         # clf = lgbm.LGBMClassifier()
         # clf = joblib.load("models/model_lgbm.pkl")
-        clf = lgbm.Booster(model_file=r'C:\Users\ovouz\OneDrive\Documents\Telco-Customer-Churn-Prediction-Streamlit-App-main\models\model_lgbm.txt')
+        clf = lgbm.Booster(model_file=r'/workspaces/Telco-Customer-Churn-Prediction-Streamlit-App-main/models/model_lgbm.txt')
     return clf
 
 
