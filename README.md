@@ -27,7 +27,7 @@ To run this app `streamlit run app.py`
 * [Onedrive Dataset URL](https://azubiafrica-my.sharepoint.com/:x:/r/personal/teachops_azubiafrica_org/Documents/Career%20Accelerator%20Data_Sets/LP2%20Datasets/Telco-churn-last-2000.xlsx?d=w4bfb3536a4a143c98f4f79741606114c&csf=1&web=1&e=2V3Njh)
 * [GitHub Dataset URL](https://github.com/Azubi-Africa/Career_Accelerator_LP2-Classifcation/blob/ffc6eab27c88e9b50c0bfd55d683511d7da9c590/LP2_Telco-churn-second-2000.csv)
 
-
+![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 
 ### GitHub Project Repository 
 * Check the **GitHub Project Repository**   [![](https://img.shields.io/badge/Customer%20Churn%20Prediction-GitHub-100000?logo=github&logoColor=white)](https://github.com/mgpacifique/Telco-Customer-Churn-Prediction-Streamlit-App-main)
